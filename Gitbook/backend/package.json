@@ -1,0 +1,26 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "express server for interfacing with frontend React and external  APIs",
+  "main": "app.js",
+  "scripts": {
+    "start": "npx nodemon backend_express_server.js",
+    "test": "mocha"
+  },
+  "author": "Julian",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "1.19.0",
+    "es6-promise": "4.2.8",
+    "express": "4.17.1",
+    "helmet": "4.6.0",
+    "isomorphic-fetch": "3.0.0",
+    "node-fetch": "3.0.0",
+    "request": "2.88.2"
+  },
+  "devDependencies": {
+    "chai": "4.3.4",
+    "mocha": "9.1.2",
+    "nodemon": "2.0.13"
+  }
+}

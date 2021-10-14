@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  style={
+    Object {
+      "padding": "30px",
+    }
+  }
+>
+  <h1>
+    Welcome to GitBook
+  </h1>
+  <br />
+  <input
+    className="form-control"
+    onChange={[Function]}
+    placeholder="Search developers here by name"
+    style={
+      Object {
+        "margin": "auto",
+        "textAlign": "center",
+        "width": "80%",
+      }
+    }
+    type="input"
+    value=""
+  />
+  <br />
+  <button
+    className="btn btn-primary"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Search
+  </button>
+</div>
+`;
